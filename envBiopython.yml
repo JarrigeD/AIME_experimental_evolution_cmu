@@ -1,0 +1,17 @@
+---
+#-----------------------------------------
+# Environment file for biopython usage
+# Author : Domitille Jarrige
+# Date : 2023-11-03
+#-----------------------------------------
+name: envBiopython
+
+channels:
+ - conda-forge
+ - bioconda
+
+dependencies:
+ - python
+ - conda-forge::biopython==1.79
+ - pandas == 1.3.3
+... 
